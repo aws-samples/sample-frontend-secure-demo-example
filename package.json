@@ -1,0 +1,28 @@
+{
+  "name": "standup-security-demo-spa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Intentionally-vulnerable React SPA for the 'Securing Your React App on AWS' video. Demos XSS, token storage, broken access control, and secrets-in-the-bundle.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.5.5",
+    "aws-amplify": "^6.18.0",
+    "dompurify": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.6.3",
+    "vite": "^8.0.16"
+  }
+}
